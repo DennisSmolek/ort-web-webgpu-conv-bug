@@ -1,0 +1,9 @@
+This repository is a bug reproduction for onnxruntime-web.
+
+Reproduction code (repro/, split/*.js, *.py, *.html) is MIT-licensed.
+
+The ONNX models in split/models/ are derived (via onnx.utils.extract_model)
+from Intel Open Image Denoise (OIDN) pre-trained weights, which are licensed
+under the Apache License 2.0, Copyright Intel Corporation.
+See https://github.com/RenderKit/oidn and https://github.com/RenderKit/oidn-weights.
+They are included here solely to make the reproduction self-contained.
